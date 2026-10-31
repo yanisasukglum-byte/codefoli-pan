@@ -1,0 +1,48 @@
+:root {
+    --primary: #aeffca;      
+    --text: #ff96d1;         
+    --paper: #ffffff;     
+    --accent: #c9a24a;       
+    --highlight: #ff96ce;    
+    --bg-main: #f5f7fa;      
+}
+
+body {
+    font-family: "Noto Sans Thai", sans-serif;
+    color: var(--text);
+    background-color: var(--bg-main);
+    line-height: 1.7;
+    margin: 0;              
+}
+
+.profile {
+    background-color: var(--paper);
+    border-bottom: 4px solid var(--accent);
+    padding: 3rem 0;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 260px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #d9e0e8;
+    border-color: #c9a24a;
+    box-shadow: 15px 0 5px 0 #d9e0e8;
+    background: #fff;
+
+.mmm {
+    color: var(--highlight);
+}
+
+.profile-name{
+    color:#1b2a41;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.profile-sud{
+    color:#2c5f8a;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
